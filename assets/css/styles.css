@@ -10,8 +10,64 @@ p {
   margin: 0;
 }
 
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("/assets/fonts/helvetica/Helvetica\ Neue\ LTW0697BlkCnObl.otf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("./assets/fonts/ProximaNova-Semibold.ttf");
+  font-weight: 600;
+  font-style: normal;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: white;
+}
+
+.header .logo {
+  height: 34px;
+}
+
+.nav-items {
+  display: flex;
+  align-items: center;
+  column-gap: 18px;
+  font-family: "Poppins", sans-serif;
+}
+
+.nav-items a {
+  text-decoration: none;
+  color: #4e351f;
+}
+
+.social-wrap {
+  width: 71px;
+  height: 71px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #4e351f;
+  border-radius: 100px;
+}
 .container {
   max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.small-container {
+  max-width: 421px;
   margin-left: auto;
   margin-right: auto;
   padding: 0 2rem;
@@ -19,34 +75,76 @@ p {
 
 /* fonts */
 .text-xs {
-    font-size: 12.4332px;
-    line-height: 15px;
+  font-size: 12.4332px;
+  line-height: 15px;
 }
 .text-sm {
-    font-size: 18px;
-    line-height: 27px;
+  font-size: 18px;
+  line-height: 27px;
 }
 .text-md {
-    font-size: 24px;
-    line-height: 29px;
+  font-size: 24px;
+  line-height: 29px;
 }
 .text-base {
-    font-size: 30px;
-    line-height: 36px;
+  font-size: 30px;
+  line-height: 36px;
 }
 .text-lg {
-    font-size: 60px;
-    line-height: 121px;
+  font-size: 60px;
+  line-height: 121px;
 }
 .text-xl {
-    font-size: 100px;
-    line-height: 121px;
+  font-size: 100px;
+  line-height: 121px;
 }
 
 .d-flex {
-    display: flex;
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.align-center {
+  align-items: center;
 }
 
 .text-center {
-    text-align: center;
+  text-align: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  row-gap: 60px;
+}
+
+.grid-item {
+}
+
+footer {
+  background-color: #fcfad5;
+  padding: 83px 0;
+}
+
+.footer-content {
+    flex: 1;
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+    color: #4E351F;
+}
+
+.footer-content h2 {
+    font-weight: 500;
+}
+
+ul {
+    padding: 0;
+}
+
+.footer-content ul li {
+    list-style: none;
+    margin-bottom: 20px;
 }

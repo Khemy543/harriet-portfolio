@@ -1,0 +1,105 @@
+.hero {
+  height: calc(100vh - 95px);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.figma-logo {
+  position: absolute;
+  bottom: 94px;
+  left: 64px;
+}
+
+.case-study-image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.case-study {
+  background-color: #000000;
+  padding-top: 92px;
+  padding-bottom: 92px;
+}
+
+.case-study h3 {
+  color: #ff7262;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 75px;
+  margin-bottom: 21px;
+}
+
+.case-study p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: white;
+}
+
+.details {
+  padding-bottom: 94px;
+}
+
+.details h4 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 60px;
+  color: #ff7262;
+  margin-top: 84px;
+}
+
+.details p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 50px;
+}
+
+ul {
+  padding: 0;
+  margin-left: 20px;
+}
+
+ul li {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 50px;
+}
+
+.research-interviews {
+  background-color: #ff7262;
+  padding-top: 60px;
+  padding-bottom: 93px;
+}
+
+.research-interviews h4 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 60px;
+  color: white;
+}
+
+.research-interviews p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 50px;
+  color: white;
+  margin-top: 36px;
+}

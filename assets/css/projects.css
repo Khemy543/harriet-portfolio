@@ -1,0 +1,41 @@
+.project-page {
+    display: flex;
+    flex-direction: column;
+    margin-top: 90px;
+    margin-bottom: 70px;
+    row-gap: 173px;
+}
+
+.horizontal-project-card {
+    display: flex;
+    column-gap: 75px;
+    align-items: center;
+}
+
+.horizontal-project-card div {
+    flex: 1;
+    text-align: center;
+}
+
+.horizontal-project-card div img {
+    width: 100%;
+}
+
+.horizontal-project-card div h4 {
+    margin-bottom: 20px;
+    color: #4E351F;
+}
+
+.horizontal-project-card div p {
+    color: #4E351F;
+}
+
+.horizontal-project-card div button {
+    background-color: #3F2E1E;
+    border-radius: 63px;
+    padding: 24px 69px;
+    color: white;
+    border: none;
+    margin-top: 36px;
+    cursor: pointer;
+}

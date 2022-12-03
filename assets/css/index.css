@@ -1,51 +1,3 @@
-@font-face {
-  font-family: "Helvetica Neue";
-  src: url("/assets/fonts/helvetica/Helvetica\ Neue\ LTW0697BlkCnObl.otf");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Proxima Nova";
-  src: url("./assets/fonts/ProximaNova-Semibold.ttf");
-  font-weight: 600;
-  font-style: normal;
-}
-
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 12px 0;
-  background-color: white;
-}
-
-.header .logo {
-  height: 34px;
-}
-
-.nav-items {
-  display: flex;
-  align-items: center;
-  column-gap: 18px;
-  font-family: "Poppins", sans-serif;
-}
-
-.nav-items a {
-  text-decoration: none;
-  color: #4e351f;
-}
-
-.social-wrap {
-  width: 71px;
-  height: 71px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #4e351f;
-  border-radius: 100px;
-}
-
 .hero {
   background-color: #fcfad5;
   padding: 55px 0;
@@ -147,14 +99,23 @@
     padding: 90px 0;
 }
 
+.projects-wrap {
+  display: flex;
+  column-gap: 180px;
+  overflow-x: auto;
+}
+
 .project-card {
     max-width: 468px;
     width: 100%;
+    text-align: center;
     
 }
 
 .project-card img {
-    width: 100%;
+    width: 468px;
+    height: 326px;
+    object-fit: cover;
 }
 
 .project-card h4 {
@@ -186,4 +147,10 @@
     color: white;
     background-color: #3F2E1E;
     border-radius: 80px;
+    text-decoration: none;
+}
+
+
+.tools {
+  padding: 91px 0;
 }

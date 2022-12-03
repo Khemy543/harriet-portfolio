@@ -1,0 +1,72 @@
+.contact-text {
+  font-family: "Arial";
+  font-weight: 400;
+  font-size: 90px;
+  line-height: 166px;
+
+  background: linear-gradient(
+    180deg,
+    #4e351f 33.33%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  margin-top: 66px;
+  position: relative;
+  z-index: 10;
+}
+
+.image-wrap {
+    background: url(/assets/images/contact-me.png), #D9D9D9;
+    height: 100%;
+    width: 100%;
+}
+
+.contact-form {
+  display: flex;
+  align-items: center;
+  margin-top: -75px;
+  column-gap: 75px;
+}
+
+.contact-form div {
+  flex: 1;
+  width: 100%;
+}
+
+.contact-form div img {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+label {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #4e351f;;
+}
+
+input,
+textarea {
+  background-color: rgba(188, 188, 192, 0.17);
+  border-radius: 5px;
+  padding: 16px 20px;
+  outline: none;
+  border: none;
+  margin-top: 10px;
+  width: 100%
+}
+
+.row {
+    column-gap: 26px;
+    margin-bottom: 40px;
+}
+
+.row div {
+    flex: 1
+}
