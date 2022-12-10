@@ -49,6 +49,10 @@ p {
   color: #4e351f;
 }
 
+.nav-items a.active {
+  text-decoration: underline;
+}
+
 .social-wrap {
   width: 71px;
   height: 71px;
