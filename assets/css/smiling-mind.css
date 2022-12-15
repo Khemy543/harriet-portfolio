@@ -80,12 +80,21 @@ ul li {
 }
 
 .research-interviews {
+}
+
+.research-interviews .header {
   background-color: #ff7262;
   padding-top: 60px;
   padding-bottom: 93px;
 }
 
-.research-interviews h4 {
+.research-interviews .details {
+  padding-top: 130px;
+  padding-bottom: 130px;
+  color: black;
+}
+
+.research-interviews .header h4 {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 800;
@@ -94,7 +103,7 @@ ul li {
   color: white;
 }
 
-.research-interviews p {
+.research-interviews .header p {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
@@ -102,4 +111,43 @@ ul li {
   line-height: 50px;
   color: white;
   margin-top: 36px;
+}
+
+.research-interviews .details .interview-group {
+  display: flex;
+  column-gap: 24px;
+  margin-bottom: 60px;
+  align-items: center;
+}
+
+.research-interviews .details .survey-grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 31px;
+  row-gap: 79px;
+  margin-top: 160px;
+  margin-bottom: 146px;
+}
+
+.research-interviews .details p span {
+  color: #ff7262;
+}
+
+.research-interviews .details ul li span {
+  color: #ff7262;
+}
+
+.research-interviews .details ul {
+  margin-top: 67px;
+}
+
+.research-interviews .details .image-wrap {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 180px;
+}
+
+.research-interviews .details .image-wrap img {
+  width: 100%;
 }
