@@ -47,6 +47,10 @@
   margin-bottom: 104px;
 }
 
+.image-row:last-child {
+  margin-bottom: 0px !important;
+}
+
 .image-row.big-gap {
   column-gap: 254px;
 }
@@ -63,4 +67,18 @@
   line-height: 139px;
   color: #288541;
   text-align: center;
+  margin-top: 217px;
+}
+
+.mobile-phone {
+  width: 224.96px !important;
+}
+
+.label {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 139px;
+  color: #288541;
 }
