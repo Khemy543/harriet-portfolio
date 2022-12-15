@@ -178,6 +178,7 @@ ul {
 
 .user-interface {
   margin-top: 170px;
+  padding-bottom: 180px;
 }
 
 .user-interface h4 {
@@ -187,6 +188,18 @@ ul {
   font-size: 30px;
   line-height: 36px;
   text-align: center;
+}
+
+.user-interface .interface-wrap {
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 100px;
+  row-gap: 100px;
+  margin-top: 150px;
+}
+
+.user-interface .interface-wrap img {
+  width: 100%;
 }
 
 .style-item h5 {
