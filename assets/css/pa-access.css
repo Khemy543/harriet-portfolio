@@ -195,6 +195,64 @@ section {
 }
 
 .user-bio-card.small.transparent {
-    background-color: transparent;
-    border: none
+  background-color: transparent;
+  border: none;
+}
+
+.empathy-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 15px;
+  margin-top: 50px;
+  position: relative;
+}
+
+.empathy-container img {
+  position: absolute;
+  left: 38%;
+  top: 40%;
+}
+
+.empathy-item {
+  height: 400px;
+  border: 2px dashed white;
+  border-radius: 8px;
+  padding: 46px 17px;
+}
+
+.empathy-item h5 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 26px;
+  letter-spacing: -0.022em;
+  margin: 0px;
+}
+
+.empathy-item ul {
+  margin-top: 64px;
+  padding-left: 17px;
+}
+
+.empathy-item li {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 21.2681px;
+  line-height: 26px;
+  letter-spacing: -0.022em;
+  color: #ffffff;
+  margin-bottom: 12px;
+}
+
+.flow-chart {
+  border-radius: 20px;
+  background: white;
+  padding: 134px 24px;
+  margin-top: 60px;
+}
+
+.flow-chart img {
+  width: 100%;
 }
