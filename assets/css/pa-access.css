@@ -256,3 +256,42 @@ section {
 .flow-chart img {
   width: 100%;
 }
+
+.wireframe-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 67px;
+  row-gap: 80px;
+}
+
+.wireframe-container img {
+  width: 100%;
+}
+
+.analysis-table {
+  width: 100%;
+}
+
+.analysis-table th {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22.9836px;
+  line-height: 61px;
+  letter-spacing: -0.022em;
+  color: #ffffff;
+  text-align: left;
+  padding: 0 23px;
+}
+
+.analysis-table tbody tr td {
+  background-color: white;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22.9836px;
+  line-height: 61px;
+  letter-spacing: -0.022em;
+  color: #000dff;
+  padding: 0 23px;
+}
