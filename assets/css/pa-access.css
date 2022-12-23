@@ -177,6 +177,29 @@ section {
   color: #181818;
 }
 
+.user-bio-card h4 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 21px;
+  letter-spacing: -0.022em;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.user-bio-card ul li {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 21px;
+  letter-spacing: -0.022em;
+  color: #000000;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
 .user-card-grid {
   display: flex;
   column-gap: 52px;
