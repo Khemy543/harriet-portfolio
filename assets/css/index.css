@@ -26,6 +26,20 @@
   background-repeat: no-repeat;
   max-height: 447px;
   overflow: hidden;
+  position: relative;
+}
+
+.about-header h2 {
+  font-family: 'Inter';
+  color: white;
+  position: absolute;
+  bottom: 10px;
+  left: 43%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 121px;
+  color: #FFFFFF;
 }
 
 .about-content {
