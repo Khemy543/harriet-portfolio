@@ -146,6 +146,7 @@
   font-weight: 500;
   color: #4e351f;
   text-align: center;
+  font-family: 'Inter';
 }
 
 .project-card p {
@@ -153,6 +154,7 @@
   line-height: 29px;
   color: #4e351f;
   text-align: center;
+  font-family: 'Inter';
 }
 
 .learn-more-button-wrap {
@@ -170,6 +172,7 @@
   background-color: #3f2e1e;
   border-radius: 80px;
   text-decoration: none;
+  font-family: 'Inter';
 }
 
 .tools {
