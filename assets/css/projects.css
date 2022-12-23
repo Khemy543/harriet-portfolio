@@ -24,10 +24,12 @@
 .horizontal-project-card div h4 {
     margin-bottom: 20px;
     color: #4E351F;
+    font-family: 'Inter';
 }
 
 .horizontal-project-card div p {
     color: #4E351F;
+    font-family: 'Inter';
 }
 
 .horizontal-project-card div button {
