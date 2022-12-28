@@ -30,14 +30,18 @@
 .horizontal-project-card div p {
     color: #4E351F;
     font-family: 'Inter';
+    font-size: 16px;
+    line-height: 29px;
 }
 
 .horizontal-project-card div button {
     background-color: #3F2E1E;
     border-radius: 63px;
-    padding: 24px 69px;
+    padding: 20px 50px;
     color: white;
     border: none;
     margin-top: 36px;
+    font-size: 18px;
+    line-height: 27px;
     cursor: pointer;
 }
